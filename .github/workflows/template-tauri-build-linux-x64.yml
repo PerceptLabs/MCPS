@@ -153,6 +153,7 @@ jobs:
           wget https://github.com/linuxdeploy/linuxdeploy/releases/download/1-alpha-20250213-2/linuxdeploy-x86_64.AppImage -O "$TAURI_TOOLKIT_PATH/linuxdeploy-x86_64.AppImage"
           chmod +x "$TAURI_TOOLKIT_PATH/linuxdeploy-x86_64.AppImage"
 
+          chmod +x ./src-tauri/build-utils/buildAppImage.sh
           make build-tauri
 
           APP_IMAGE=./src-tauri/target/release/bundle/appimage/$(ls ./src-tauri/target/release/bundle/appimage/ | grep AppImage | head -1)
