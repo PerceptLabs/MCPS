@@ -11,7 +11,7 @@ if [ ! -f "${APPIMAGETOOL}" ]; then
     chmod +x "${APPIMAGETOOL}"
 fi
 
-if [ "${RELEASE_CHANNEL}" -ne "stable" ]; then
+if [ "${RELEASE_CHANNEL}" != "stable" ]; then
     APP_DIR=./src-tauri/target/release/bundle/appimage/Jan-${RELEASE_CHANNEL}.AppDir
 else
     APP_DIR=./src-tauri/target/release/bundle/appimage/Jan.AppDir
