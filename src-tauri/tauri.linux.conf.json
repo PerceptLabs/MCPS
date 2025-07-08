@@ -10,16 +10,8 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
-    "resources": [
-      "resources/pre-install/**/*",
-      "resources/lib/",
-      "binaries/**/*"
-    ],
-    "externalBin": [
-      "binaries/cortex-server",
-      "resources/bin/bun",
-      "resources/bin/uv"
-    ],
+    "resources": ["resources/pre-install/**/*"],
+    "externalBin": ["binaries/cortex-server", "resources/bin/uv"],
     "linux": {
       "appimage": {
         "bundleMediaFramework": false,
@@ -29,7 +21,8 @@
         "files": {
           "usr/bin/bun": "resources/bin/bun",
           "usr/lib/Jan/binaries": "binaries/deps",
-          "usr/lib/Jan/binaries/engines": "binaries/engines"
+          "usr/lib/Jan/binaries/engines": "binaries/engines",
+          "usr/lib/Jan/binaries/libvulkan.so": "binaries/libvulkan.so"
         }
       }
     }
