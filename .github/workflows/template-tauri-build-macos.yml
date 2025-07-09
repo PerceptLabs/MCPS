@@ -15,6 +15,10 @@ on:
         required: true
         type: string
         default: ''
+      cortex_api_port:
+        required: false
+        type: string
+        default: ''
       upload_url:
         required: false
         type: string
