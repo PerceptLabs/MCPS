@@ -52,6 +52,8 @@ build: install-and-build
 
 # Deprecated soon
 build-tauri: install-and-build
+	- chmod +x ./src-tauri/build-utils/buildAppImage.sh
+	- chmod +x ./src-tauri/build-utils/shim-linuxdeploy.sh
 	yarn copy:lib
 	yarn build
 

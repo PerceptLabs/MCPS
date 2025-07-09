@@ -2,8 +2,6 @@
 APPIMAGETOOL="./.cache/build-tools/appimagetool"
 RELEASE_CHANNEL=${RELEASE_CHANNEL:-"stable"}
 
-echo "RELEASE_CHANNEL: ${RELEASE_CHANNEL}"
-
 # pull in AppImageTool if it's not pre cached
 mkdir -p ./.cache/build-tools
 if [ ! -f "${APPIMAGETOOL}" ]; then
