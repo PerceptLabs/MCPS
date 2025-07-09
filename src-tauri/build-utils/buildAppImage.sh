@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
+
 APPIMAGETOOL="./.cache/build-tools/appimagetool"
 RELEASE_CHANNEL=${RELEASE_CHANNEL:-"stable"}
 
