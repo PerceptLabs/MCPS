@@ -212,6 +212,8 @@
     "factoryResetDesc": "Ini akan mengatur ulang semua pengaturan aplikasi ke default. Tindakan ini tidak dapat dibatalkan. Kami hanya merekomendasikan ini jika aplikasi rusak.",
     "cancel": "Batal",
     "reset": "Setel Ulang",
+    "huggingfaceToken": "Token HuggingFace",
+    "huggingfaceTokenDesc": "Token API HuggingFace Anda untuk mengakses model.",
     "resources": "Sumber Daya",
     "documentation": "Dokumentasi",
     "documentationDesc": "Pelajari cara menggunakan Jan dan jelajahi fitur-fiturnya.",

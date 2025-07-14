@@ -212,6 +212,8 @@
     "factoryResetDesc": "Điều này sẽ đặt lại tất cả cài đặt ứng dụng về mặc định. Không thể hoàn tác. Chúng tôi chỉ khuyến nghị điều này nếu ứng dụng bị hỏng.",
     "cancel": "Hủy",
     "reset": "Đặt lại",
+    "huggingfaceToken": "HuggingFace Token",
+    "huggingfaceTokenDesc": "API HuggingFace Token của bạn để truy cập các models.",
     "resources": "Tài nguyên",
     "documentation": "Tài liệu",
     "documentationDesc": "Tìm hiểu cách sử dụng Jan và khám phá các tính năng của nó.",

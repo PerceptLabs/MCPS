@@ -212,6 +212,8 @@
     "factoryResetDesc": "这将重置所有应用设置为默认值。此操作无法撤销。我们只建议在应用损坏时使用。",
     "cancel": "取消",
     "reset": "重置",
+    "huggingfaceToken": "HuggingFace 密钥",
+    "huggingfaceTokenDesc": "用于访问模型的 HuggingFace API 密钥。",
     "resources": "资源",
     "documentation": "文档",
     "documentationDesc": "了解如何使用 Jan 并探索其功能。",

@@ -151,10 +151,7 @@ export const startModel = async (
   return getEngine(provider.provider)
     .load(model)
     .catch((error) => {
-      console.error(
-        `Failed to start model ${model} for provider ${provider.provider}:`,
-        error
-      )
+      console.error(error)
       throw error
     })
 }
